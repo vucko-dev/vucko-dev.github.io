@@ -162,18 +162,37 @@
   <li></li>
 </ul>
 	</section>
-<section class="about"> 
+<section class="about"> <div>
 	<div class="about-img"></div>
 	<div class="about-text">
 		<div>
-		<h3>Biografija</h3>
+		<h3>David Šipka</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet urna tristique nulla venenatis molestie. Suspendisse potenti. Pellentesque feugiat vulputate viverra. Cras commodo sodales laoreet. Proin vestibulum quam enim, vel pretium mauris cursus in. Vivamus ac aliquam mauris. Nulla tincidunt nibh eget congue semper. Aenean blandit, arcu id sagittis viverra, elit ligula fermentum nunc, nec bibendum nulla diam in diam. Nunc mollis sapien at libero luctus, sit amet auctor orci maximus. Pellentesque lobortis lectus eget laoreet hendrerit. Curabitur sapien est, tempus id dictum a, fringilla eu quam. Duis porttitor, nulla id iaculis aliquam, orci quam vestibulum neque, non finibus massa odio vitae justo. Morbi a volutpat magna, ut mollis magna.
 
-Phasellus ornare viverra velit, eget faucibus tortor placerat vel. Donec dapibus, nunc ac ultricies faucibus, dui libero tincidunt ipsum, commodo commodo leo neque ut purus. Quisque molestie urna ac purus posuere, in dapibus risus porta. Nunc porttitor quam sit amet ex finibus euismod. Praesent eu ligula non leo venenatis porta. Sed in justo venenatis sapien aliquet laoreet. Morbi sodales turpis augue, a aliquet risus congue id. Quisque et nisi sit amet tellus blandit ultricies. In laoreet ex in pellentesque viverra.
-
-Suspendisse malesuada enim nisl, non condimentum tellus pellentesque sit amet. Ut in dui porttitor, pellentesque augue et, vulputate augue. Aenean eget sem arcu. Integer dignissim nisi sit amet magna volutpat, ac congue dui pulvinar. Fusce viverra quam nibh, et laoreet metus pretium eu. Proin vulputate urna at massa commodo sodales. Aenean vestibulum cursus pretium.</p>
+</p>
 </div>
-	</div>
+	</div></div>
 </section>
+
+<section class="contact">
+	<div class="social">
+		<div><a href="#"><img src="img/fb.png"></a></div>
+		<div><a href="#"><img src="img/insta.png"></a></div>
+		<div><a href="#"><img src="img/google.png"></a></div>
+		<div><a href="#"><img src="img/viber.png"></a></div>
+	</div>
+	<form action="#">
+		<div class="inputs">
+              <input type="text" id="imeiprezime" placeholder="Vaše ime i prezime">
+              <input type="text" id="brojtelefona" placeholder="Vaš broj telefona">
+              <input type="email" id="email" placeholder="Vaš e-mail">
+             </div>
+              <textarea name="#" id="poruka" cols="30" rows="10" placeholder="Poruka"></textarea>
+              <input type="submit" value="Pošalji">
+    </form>
+</section>
+<footer>
+	<p>Srbislav Vučenović</p>
+</footer>
 </body>
 </html>

@@ -159,9 +159,16 @@ font-family: 'Crimson Pro', serif;
 
 .about{
 	padding: 50px;
+	padding-top:0;
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
+	display:table;
+}
+
+.about>div{
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .about-img{
@@ -178,9 +185,10 @@ font-family: 'Crimson Pro', serif;
 
 .about-text{
 	float: right;
-	width: 50%;
+	width: 55%;
 	height: 400px;
 	display: table;
+	font-family: 'Goldman', cursive;	
 }
 
 .about-text>div{
@@ -188,3 +196,95 @@ font-family: 'Crimson Pro', serif;
 	vertical-align: middle;
 }
 
+.about-text>div>h3{
+	font-size: 36px;
+}
+
+.about-text>div>p{
+	font-size: 18px;
+}
+
+
+.contact{
+	clear: both;
+	width: 100%;
+	height: auto;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.social{
+	width: 100%;
+	height: auto;
+}
+
+.social>div{
+	float: left;
+	box-sizing: border-box;
+	padding:100px;
+	width: 25%;
+	height:auto;
+}
+
+.social>div>a>img{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+form{
+	width: 100%;
+	height: auto;
+}
+
+.inputs{
+	float: left;
+	width: 50%;
+}
+
+.inputs>input{
+	width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea{
+	float: right;
+	width: 45%;
+	resize: none;
+	padding: 6px 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]{
+	clear: both;
+	float: right;
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: white;	font-family: 'Goldman', cursive;	
+font-size: 18px;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	padding:50px 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+
+footer>p{
+	text-align: center;
+	font-size:18px;
+	font-family: "Times New Roman";
+	color:rgba(0,0,0,0.6);
+}
