@@ -162,5 +162,18 @@
   <li></li>
 </ul>
 	</section>
+<section class="about"> 
+	<div class="about-img"></div>
+	<div class="about-text">
+		<div>
+		<h3>Biografija</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet urna tristique nulla venenatis molestie. Suspendisse potenti. Pellentesque feugiat vulputate viverra. Cras commodo sodales laoreet. Proin vestibulum quam enim, vel pretium mauris cursus in. Vivamus ac aliquam mauris. Nulla tincidunt nibh eget congue semper. Aenean blandit, arcu id sagittis viverra, elit ligula fermentum nunc, nec bibendum nulla diam in diam. Nunc mollis sapien at libero luctus, sit amet auctor orci maximus. Pellentesque lobortis lectus eget laoreet hendrerit. Curabitur sapien est, tempus id dictum a, fringilla eu quam. Duis porttitor, nulla id iaculis aliquam, orci quam vestibulum neque, non finibus massa odio vitae justo. Morbi a volutpat magna, ut mollis magna.
+
+Phasellus ornare viverra velit, eget faucibus tortor placerat vel. Donec dapibus, nunc ac ultricies faucibus, dui libero tincidunt ipsum, commodo commodo leo neque ut purus. Quisque molestie urna ac purus posuere, in dapibus risus porta. Nunc porttitor quam sit amet ex finibus euismod. Praesent eu ligula non leo venenatis porta. Sed in justo venenatis sapien aliquet laoreet. Morbi sodales turpis augue, a aliquet risus congue id. Quisque et nisi sit amet tellus blandit ultricies. In laoreet ex in pellentesque viverra.
+
+Suspendisse malesuada enim nisl, non condimentum tellus pellentesque sit amet. Ut in dui porttitor, pellentesque augue et, vulputate augue. Aenean eget sem arcu. Integer dignissim nisi sit amet magna volutpat, ac congue dui pulvinar. Fusce viverra quam nibh, et laoreet metus pretium eu. Proin vulputate urna at massa commodo sodales. Aenean vestibulum cursus pretium.</p>
+</div>
+	</div>
+</section>
 </body>
 </html>
