@@ -192,7 +192,7 @@
     </form>
 </section>
 <footer>
-	<p>Srbislav Vučenović</p>
+	<p>Srbislav Vučenović &copy</p>
 </footer>
 </body>
 </html>

@@ -99,6 +99,7 @@ font-family: 'Crimson Pro', serif;
 
 .galerija{
 	padding: 50px;
+	padding-bottom: 0;
 	box-sizing: border-box;
 }
 
@@ -158,6 +159,7 @@ font-family: 'Crimson Pro', serif;
 }
 
 .about{
+	margin-top: 50px;
 	padding: 50px;
 	padding-top:0;
 	box-sizing: border-box;
@@ -189,6 +191,7 @@ font-family: 'Crimson Pro', serif;
 	height: 400px;
 	display: table;
 	font-family: 'Goldman', cursive;	
+	text-align: justify;
 }
 
 .about-text>div{
@@ -270,14 +273,15 @@ input[type="submit"]{
   background-color: rgba(0,0,0,0.6);
   padding: 15px 30px;
   border-radius: 10px;
-  color: white;	font-family: 'Goldman', cursive;	
+  color: white;
 font-size: 18px;
+letter-spacing: 2px;
 }
 
 footer{
 	clear: both;
 	width: 100%;
-	padding:50px 10px;
+	padding:80px 10px;
 	padding-bottom: 10px;
 	box-sizing: border-box;
 }
@@ -287,4 +291,33 @@ footer>p{
 	font-size:18px;
 	font-family: "Times New Roman";
 	color:rgba(0,0,0,0.6);
+}
+
+@media only screen and (max-width: 768px){
+	.about-img,.about-text{
+		float: none;
+		margin:0 auto;
+	}
+	.about-text>div>h3{
+		text-align: center;
+	}
+	.social>div{
+		width: 50%;
+	}
+	.inputs,textarea{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	.layer{
+		display: table;
+	}
+	.quote{
+		display: table-cell;
+		vertical-align: middle;
+		float: none;
+		margin:auto 0;
+		font-size: 42px;
+	}
 }
