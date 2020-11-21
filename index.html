@@ -16,19 +16,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-	<header>
+	<header id="top">
 		<nav>
 			<!--img class="logo" src="img/logo.jpg"-->
 			<div class="logo">
-				<h3>David Šipka</h3>
-				<p>PHOTOGRAPHY</p>
+				<a href="#top" id="t"><h3>David Šipka</h3>
+				<p>PHOTOGRAPHY</p></a>
 			</div>
 			<ul class="nav">
-				<li><a href="#" class="active">galerija</a></li>
-				<li><a href="#">o meni</a></li>
-				<li><a href="#">kontakt</a></li>
+				<li><a href="#gallery" id="g">galerija</a></li>
+				<li><a href="#about" id="a">o meni</a></li>
+				<li><a href="#contact" id="c">kontakt</a></li>
 			</ul>
 		</nav>
 		<div class="home">
@@ -42,7 +43,7 @@
 		</div>
 	</header>
 
-	<section class="galerija">
+	<section id="gallery" class="galerija">
 		<ul>
   <li>
     <img src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05466_kwlv0n.jpg" alt="A Toyota Previa covered in graffiti" loading="lazy">
@@ -164,7 +165,7 @@
   <li></li>
 </ul>
 	</section>
-<section class="about"> <div>
+<section id="about" class="about"> <div>
 	<div class="about-img"></div>
 	<div class="about-text">
 		<div>
@@ -176,25 +177,30 @@
 	</div></div>
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
 	<div class="social">
 		<div><a href="#"><img src="img/fb.png"></a></div>
 		<div><a href="#"><img src="img/insta.png"></a></div>
 		<div><a href="#"><img src="img/google.png"></a></div>
 		<div><a href="#"><img src="img/viber.png"></a></div>
 	</div>
-	<form action="#">
+	<form action="sendemail.php" method="post" novalidate="novalidate">
 		<div class="inputs">
               <input type="text" id="imeiprezime" placeholder="Vaše ime i prezime">
               <input type="text" id="brojtelefona" placeholder="Vaš broj telefona">
               <input type="email" id="email" placeholder="Vaš e-mail">
              </div>
               <textarea name="#" id="poruka" cols="30" rows="10" placeholder="Poruka"></textarea>
-              <input type="submit" value="Pošalji">
+              <input type="submit" value="Pošalji" id="dugme">
     </form>
 </section>
 <footer>
 	<p>Srbislav Vučenović 2020. &copy</p>
 </footer>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+ <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

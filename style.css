@@ -36,12 +36,17 @@ nav{
 	text-align: center;
 }
 
-.logo>h3{
+.logo>a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo>a>h3{
 	font-family: 'Dancing Script', cursive;
 	font-size: 36px;
 }
 
-.logo>p{
+.logo>a>p{
 	font-size: 18px;
 }
 
@@ -136,9 +141,7 @@ font-family: 'Crimson Pro', serif;
 
 
 .about{
-	margin-top: 10px;
 	padding: 50px;
-	padding-top:0;
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
@@ -255,6 +258,14 @@ font-size: 18px;
 letter-spacing: 2px;
 }
 
+.passed{
+	background-color: lightgreen;
+}
+
+.error{
+	border:1px solid red!important;
+}
+
 footer{
 	clear: both;
 	width: 100%;
@@ -318,10 +329,10 @@ footer>p{
 		margin:0 auto;
 		height: 35px;
 	}
-	.logo>h3{
+	.logo>a>h3{
 		font-size: 28px;
 	}
-	.logo>p{
+	.logo>a>p{
 		font-size: 14px;
 	}
 	.nav{
