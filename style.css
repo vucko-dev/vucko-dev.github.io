@@ -271,6 +271,15 @@ footer>p{
 }
 
 @media only screen and (max-width: 768px){
+	.layer{
+		display: table;
+	}
+	.quote{
+		display: table-cell;
+		vertical-align: middle;
+		float: none;
+		margin:auto 0;
+	}
 	.about-img,.about-text{
 		float: none;
 		margin:0 auto;
@@ -299,15 +308,6 @@ footer>p{
 }
 
 @media only screen and (max-width: 425px){
-	.layer{
-		display: table;
-	}
-	.quote{
-		display: table-cell;
-		vertical-align: middle;
-		float: none;
-		margin:auto 0;
-	}
 	.galerija>ul{
 		margin:0 auto;
 	}
