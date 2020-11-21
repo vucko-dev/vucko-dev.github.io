@@ -46,10 +46,10 @@ nav{
 }
 
 .nav{
+	width: 500px;
 	float: left;
 	margin-left: 20px;
 	list-style: none;
-	display: inline;
 }
 
 .nav>li{
@@ -136,7 +136,7 @@ font-family: 'Crimson Pro', serif;
 
 
 .about{
-	margin-top: 50px;
+	margin-top: 10px;
 	padding: 50px;
 	padding-top:0;
 	box-sizing: border-box;
@@ -308,14 +308,43 @@ footer>p{
 		width: 300px;
 		height: 300px;
 	}
+	nav{
+		padding:10px;
+	}
+	.logo{
+		float: none;
+		clear: both;
+		margin:0 auto;
+		height: 35px;
+	}
+	.logo>h3{
+		font-size: 28px;
+	}
+	.logo>p{
+		font-size: 14px;
+	}
 	.nav{
-		display: none;
+		width: 300px;
+		text-align: center;
+		float: none;
+		clear: both;
+		margin:0 auto;
+
+	}
+	.nav>li{
+		margin-left: 15px;
+	}
+	.nav>li>a{
+		font-size: 18px;
+	}
+	.active{
+		font-size: 22px!important;
 	}
 }
 
 @media only screen and (max-width: 425px){
 	.galerija>ul{
-		margin:0 auto;
+		margin:0;
 	}
 
 	.social>div{
@@ -332,9 +361,10 @@ footer>p{
  
 }
 }
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 320px){
 	.about-img{
-		display: none;
+		width: 100px;
+		height: 100px;
 	}
 	.quote{
 		font-size: 20px;
