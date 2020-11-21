@@ -1,10 +1,10 @@
 <?php
+if($_POST){
+    $name = $_POST['imeiprezime'];
+    $email = $_POST['email'];
+    $message = $_POST['poruka'];
 
-$mailTo = $_POST['emailTo'];
-$mailFrom = $_POST['emailFrom'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
-
-			
-mail($mailTo, $subject, $message, "From: ".$mailFrom);
+//send email
+    mail("davidvuckovucenovic@gmail.com", "This is an email from:" .$email, $message);
+}
 ?>

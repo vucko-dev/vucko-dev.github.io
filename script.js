@@ -85,14 +85,23 @@ $(document).ready(function(){
     		$('#brojtelefona').removeClass('error');
     		$('#email').removeClass('error');
     		$('#poruka').removeClass('error');
-    		var emailFromVal=$('#email').val();
-    		var subjectVal=$('#imeiprezime').val();
-    		var messageVal=$('#poruka').val();
-    		$.post("sendemail.php",
-  			 { emailTo: "davidvuckovucenovic@gmail.com", emailFrom: emailFromVal, subject: subjectVal, message: messageVal },
-   			 function(data){
-  					$('#dugme').addClass('passed');
-  			});
+    		 $("#contact").click(function() {
+    		 	var data = {
+    				name: $("#imeiprezime").val(),
+    				email: $("#email").val(),
+   					 message: $("#poruka").val()
+		};
+        $.ajax({
+            type: "POST",
+            url: "sendemail.php",
+            data: data,
+            success: function(){
+            $('dugme').addClass('passed');
+            }
+        });
+
+        return false;
+    });
  }			
     	});	
     });
