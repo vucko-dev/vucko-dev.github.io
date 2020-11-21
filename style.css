@@ -293,6 +293,9 @@ footer>p{
 		width: 300px;
 		height: 300px;
 	}
+	.nav{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 425px){
@@ -308,13 +311,7 @@ footer>p{
 	.galerija>ul{
 		margin:0 auto;
 	}
-	.nav{
-		display: none;
-	}
-	.logo{
-		float: none;
-		margin:0 auto;
-	}
+
 	.social>div{
 		width: 100%;
 		padding:50px;
