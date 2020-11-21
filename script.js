@@ -88,7 +88,7 @@ $(document).ready(function(){
     		var emailFromVal=$('#email').val();
     		var subjectVal=$('#imeiprezime').val();
     		var messageVal=$('#poruka').val();
-    		$.post("sendEmail.php",
+    		$.post("sendemail.php",
   			 { emailTo: "davidvuckovucenovic@gmail.com", emailFrom: emailFromVal, subject: subjectVal, message: messageVal },
    			 function(data){
   					$('#dugme').addClass('passed');
