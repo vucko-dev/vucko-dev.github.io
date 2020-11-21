@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<title></title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
@@ -13,7 +15,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -193,7 +194,7 @@
     </form>
 </section>
 <footer>
-	<p>Srbislav Vučenović &copy</p>
+	<p>Srbislav Vučenović 2020. &copy</p>
 </footer>
 </body>
 </html>
