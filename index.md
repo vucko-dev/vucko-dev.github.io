@@ -184,7 +184,7 @@
 		<div><a href="#"><img src="img/google.png"></a></div>
 		<div><a href="#"><img src="img/viber.png"></a></div>
 	</div>
-	<form  novalidate="novalidate">
+	<form action="sendemail.php" method="POST" novalidate="novalidate">
 		<div class="inputs">
               <input type="text" id="imeiprezime" placeholder="Vaše ime i prezime">
               <input type="text" id="brojtelefona" placeholder="Vaš broj telefona">
