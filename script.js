@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('.active-img>img').attr('src',value)
 		//$('.active-img').css('background-image', 'url(' + value + ')');
 		$('.active-img').css({
-			'display':'block'
+			'display':'table'
 		});
 		$('header').css({
 			'display':'none'
@@ -113,7 +113,7 @@ $(document).ready(function(){
     	event.preventDefault();
     	var namev=$('#imeiprezime').val()!=0;
     	var numv=$('#brojtelefona').val()!=0;
-    	var emailv= $('#email').val();
+    	var emailv= IsEmail($('#email').val());
     	var textv=$('#poruka').val()!=0;
     	if(!namev||!numv||!emailv||!textv){
     		if(!namev){
@@ -126,7 +126,7 @@ $(document).ready(function(){
     		}else{
     			$('#brojtelefona').removeClass('error');
     		}
-    		if(!IsEmail(emailv)){
+    		if(!emailv){
     			$('#email').addClass('error');
     		}else{
     			$('#email').removeClass('error');
@@ -142,21 +142,47 @@ $(document).ready(function(){
     		$('#email').removeClass('error');
     		$('#poruka').removeClass('error');
     		 $("#contact").click(function() {
-    		 	var data = {
-    				name: $("#imeiprezime").val(),
-    				email: $("#email").val(),
-   					 message: $("#poruka").val()
-		};
+    				var name= $("#imeiprezime").val();
+    				var email= $("#email").val();
+   					var message= $("#poruka").val();
+	
         $.ajax({
-            type: "POST",
-            url: "sendemail.php",
-            data: data,
-            success: function(){
-            $('dugme').addClass('passed');
-            }
-        });
+  type: "POST",
+  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+  data: {
+    'key': 'TubBPNWJJLPIL4TlOFJvwQ',
+    'message': {
+      'from_email':email,
+      'to': [
+          {
+            'email': 'davidvuckovucenovic@gmail.com',
+            'name': 'RECIPIENT NAME (OPTIONAL)',
+            'type': 'to'
+          },
+          {
+            'email': 'RECIPIENT_NO_2@EMAIL.HERE',
+            'name': 'ANOTHER RECIPIENT NAME (OPTIONAL)',
+            'type': 'to'
+          }
+        ],
+      'autotext': 'true',
+      'subject': name,
+      'html': message
+    }
+  }
+ }).done(function(response) {
+   console.log(response); 
+   $('#dugme').addClass('passed');
+    	      $('#dugme').removeClass('fail');
+    	      setTimeout(function(){
+           location.reload(); 
+      }, 2000);
 
-        return false;
+ }).fail(function(response){
+ 	   console.log(response); 
+ 	      $('#dugme').removeClass('passed');
+ 	   $('#dugme').addClass('fail');
+ });
     });
  }			
     	});	
