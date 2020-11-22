@@ -20,6 +20,7 @@ nav{
 	box-sizing: border-box;
 	clear: both;
 	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
 }
 
 .logo{
@@ -131,6 +132,8 @@ font-family: 'Crimson Pro', serif;
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+  cursor: pointer;
+  z-index: 0;
 }
 
 
@@ -425,6 +428,8 @@ footer>p{
 	max-height: 100%; 
     min-width: 0; 
     object-fit: none; 
+        display: table-cell;
+        margin:0 auto;
     vertical-align: middle;
 }
 
@@ -436,4 +441,13 @@ footer>p{
 	display: block;
 	top: 0;
 	right: 0;
+}
+
+.galerija>ul>li>img:hover{
+	transition: 1.5s;
+-ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
 }
