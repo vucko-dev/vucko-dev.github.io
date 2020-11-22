@@ -7,6 +7,54 @@ $(document).ready(function(){
     return true;
   }
 }
+
+	$('.galerija>ul>li>img').on('click',function(){
+		var value=$(this).attr('src');
+		$('.active-img>img').attr('src',value)
+		$('.active-img').css({
+			'display':'block'
+		});
+		$('header').css({
+			'display':'none'
+		});
+		$('.galerija').css({
+			'display':'none'
+		});
+		$('.about').css({
+			'display':'none'
+		});
+		$('.contact').css({
+			'display':'none'
+		});
+		$('footer').css({
+			'display':'none'
+		});
+		//$('.active-img').css('background-image', 'url(' + value + ')');
+	});
+
+	$('.active-img>a').on('click',function(event){
+		    	event.preventDefault();
+		$('.active-img').css({
+			'display':'none'
+		});
+		$('header').css({
+			'display':'block'
+		});
+		$('.galerija').css({
+			'display':'block'
+		});
+		$('.about').css({
+			'display':'block'
+		});
+		$('.contact').css({
+			'display':'block'
+		});
+		$('footer').css({
+			'display':'block'
+		});
+	});
+
+
 	var $window=$(window);
 	$window.on('scroll',function(){
 		var top=$('#top').offset().top;

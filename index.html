@@ -43,6 +43,11 @@
 		</div>
 	</header>
 
+	<div class="active-img">
+		<img src="">
+		<a href="#">zatvori</a>
+	</div>
+
 	<section id="gallery" class="galerija">
 		<ul>
   <li>
