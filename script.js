@@ -30,6 +30,7 @@ $(document).ready(function(){
 		$('footer').css({
 			'display':'none'
 		});
+		$ ("meta[name='viewport']").attr ('content', ' ');
 	});
 
 	$('.active-img>a').on('click',function(event){
@@ -37,6 +38,7 @@ $(document).ready(function(){
 		$('.active-img').css({
 			'display':'none'
 		});
+		$ ("meta[name='viewport']").attr ('content', 'width=device-width, initial-scale=1.0 ');
 		$('header').css({
 			'display':'block'
 		});
