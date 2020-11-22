@@ -44,8 +44,8 @@
 	</header>
 
 	<div class="active-img">
-		<img src="">
 		<a href="#">zatvori</a>
+		<img src="">
 	</div>
 
 	<section id="gallery" class="galerija">

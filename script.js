@@ -11,6 +11,7 @@ $(document).ready(function(){
 	$('.galerija>ul>li>img').on('click',function(){
 		var value=$(this).attr('src');
 		$('.active-img>img').attr('src',value)
+		//$('.active-img').css('background-image', 'url(' + value + ')');
 		$('.active-img').css({
 			'display':'block'
 		});
@@ -29,7 +30,6 @@ $(document).ready(function(){
 		$('footer').css({
 			'display':'none'
 		});
-		//$('.active-img').css('background-image', 'url(' + value + ')');
 	});
 
 	$('.active-img>a').on('click',function(event){
@@ -52,6 +52,12 @@ $(document).ready(function(){
 		$('footer').css({
 			'display':'block'
 		});
+		$('html, body').animate({
+             scrollTop: $('#top').offset().top
+        }, 'slow');
+        $('#g').removeClass('active');
+		$('#a').removeClass('active');
+		$('#c').removeClass('active');
 	});
 
 
