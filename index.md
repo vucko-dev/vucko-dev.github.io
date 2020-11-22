@@ -44,7 +44,7 @@
 	</header>
 
 	<div class="active-img">
-		<a href="#">zatvori</a>
+		<a href="#"><img style="width: 40px;height: 40px;" src="img/cancel.png"></a>
 		<img src="">
 	</div>
 
