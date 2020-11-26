@@ -314,8 +314,11 @@ footer>p{
 		font-size: 28px;
 	}
 	.social>div{
+		padding:20px;
+	}
+	.social>div>a>img{
 		width: 50%;
-		padding:50px;
+		height: 50%;
 	}
 	.inputs,textarea{
 		width: 100%;
@@ -368,13 +371,8 @@ footer>p{
 	}
 
 	.social>div{
-		width: 100%;
-		padding:20px;
+		padding:10px;
 	}
-	.social>div>a>img{
-		width: 50%;
-		height: 50%;
-}
 	.about-img{
 		width: 200px;
 		height: 200px;
