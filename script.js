@@ -9,6 +9,7 @@ $(document).ready(function(){
 }
 
 	$('.galerija>ul>li>img').on('click',function(){
+
 		var value=$(this).attr('src');
 		$('.active-img>img').attr('src',value);
 		//$('.active-img').css('background-image', 'url(' + value + ')');
@@ -32,6 +33,11 @@ $(document).ready(function(){
 			'display':'none'
 		});
 		$ ("meta[name='viewport']").attr ('content', ' ');
+const url = new URL(window.location);
+window.history.pushState({}, '', url);
+$(window).on('popstate',function(){
+      location.reload();
+    });
 	});
 
 	$('.active-img>a').on('click',function(event){
@@ -55,7 +61,6 @@ $(document).ready(function(){
 		$('footer').css({
 			'display':'block'
 		});
-		window.location.replace("#top");
 	});
 
 
@@ -85,22 +90,29 @@ $(document).ready(function(){
 			$('#c').addClass('active');
 		}
 	});
-	$("#a").click(function(){
+	$("#a").click(function(event){
+      event.preventDefault();
          $('html, body').animate({
              scrollTop: $('#about').offset().top
         }, 'slow');
     });
-    $("#g").click(function(){
+    $("#g").click(function(event){
+            event.preventDefault();
+
          $('html, body').animate({
              scrollTop: $('#gallery').offset().top
         }, 'slow');
     });
-    $("#c").click(function(){
+    $("#c").click(function(event){
+            event.preventDefault();
+
          $('html, body').animate({
              scrollTop: $('#contact').offset().top
         }, 'slow');
     });
-    $("#t").click(function(){
+    $("#t").click(function(event){
+            event.preventDefault();
+
          $('html, body').animate({
              scrollTop: $('#top').offset().top
         }, 'slow');
