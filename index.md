@@ -183,7 +183,15 @@
 </section>
 
 <section id="contact" class="contact">
+	<div class="social">
+		<div><a href="#" target="_blank"><img src="img/fb.png"></a></div>
+		<div><a href="#"><img src="img/insta.png"></a></div>
+		<div><a href="#"><img src="img/google.png"></a></div>
+		<div><a href="#"><img src="img/viber.png"></a></div>
+	</div>
 	<form action="" method="POST" novalidate="novalidate">
+		<fieldset>
+			<legend>Napišite poruku:</legend>
 		<div class="inputs">
               <input type="text" id="imeiprezime" placeholder="Vaše ime i prezime">
               <input type="text" id="brojtelefona" placeholder="Vaš broj telefona">
@@ -191,13 +199,8 @@
              </div>
               <textarea name="#" id="poruka" cols="30" rows="10" placeholder="Poruka"></textarea>
               <input type="submit" value="Pošalji" id="dugme">
+              </fieldset>
     </form>
-    <div class="social">
-		<div><a href="#" target="_blank"><img src="img/fb.png"></a></div>
-		<div><a href="#"><img src="img/insta.png"></a></div>
-		<div><a href="#"><img src="img/google.png"></a></div>
-		<div><a href="#"><img src="img/viber.png"></a></div>
-	</div>
 </section>
 <footer>
 	<p>Srbislav Vučenović 2020. &copy</p>
