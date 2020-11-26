@@ -10,11 +10,12 @@ $(document).ready(function(){
 
 	$('.galerija>ul>li>img').on('click',function(){
 		var value=$(this).attr('src');
-		$('.active-img>img').attr('src',value)
+		$('.active-img>img').attr('src',value);
 		//$('.active-img').css('background-image', 'url(' + value + ')');
 		$('.active-img').css({
-			'display':'table'
+			'display':'table',
 		});
+
 		$('header').css({
 			'display':'none'
 		});
@@ -54,12 +55,7 @@ $(document).ready(function(){
 		$('footer').css({
 			'display':'block'
 		});
-		$('html, body').animate({
-             scrollTop: $('#top').offset().top
-        }, 'slow');
-        $('#g').removeClass('active');
-		$('#a').removeClass('active');
-		$('#c').removeClass('active');
+		window.location.replace("#top");
 	});
 
 

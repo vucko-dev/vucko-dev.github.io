@@ -139,7 +139,7 @@ font-family: 'Crimson Pro', serif;
 
 
 .about{
-	padding: 50px;
+	padding: 0 50px;
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
@@ -197,6 +197,7 @@ font-family: 'Crimson Pro', serif;
 .social{
 	width: 100%;
 	height: auto;
+	clear: both;
 }
 
 .social>div{
@@ -363,7 +364,7 @@ footer>p{
 
 	.social>div{
 		width: 100%;
-		padding:50px;
+		padding:100px;
 	}
 	.about-img{
 		width: 200px;
@@ -420,10 +421,9 @@ footer>p{
 
 .active-img{
 	width: 100%;
-	height: auto;
+	height:auto;
 	display: none;
 	text-align: center;
-
 }
 
 .active-img>img{
@@ -436,6 +436,7 @@ footer>p{
         display: table-cell;
         margin:0 auto;
     vertical-align: middle;
+
 }
 
 .active-img>a{

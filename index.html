@@ -44,7 +44,7 @@
 	</header>
 
 	<div class="active-img">
-		<a href="#"><img style="width: 40px;height: 40px;" src="img/cancel.png"></a>
+		<a href="#"><img style="width: 60px;height: 60px;" src="img/cancel.png"></a>
 		<img src="">
 	</div>
 
@@ -183,13 +183,7 @@
 </section>
 
 <section id="contact" class="contact">
-	<div class="social">
-		<div><a href="#"><img src="img/fb.png"></a></div>
-		<div><a href="#"><img src="img/insta.png"></a></div>
-		<div><a href="#"><img src="img/google.png"></a></div>
-		<div><a href="#"><img src="img/viber.png"></a></div>
-	</div>
-	<form action="sendemail.php" method="POST" novalidate="novalidate">
+	<form action="" method="POST" novalidate="novalidate">
 		<div class="inputs">
               <input type="text" id="imeiprezime" placeholder="Vaše ime i prezime">
               <input type="text" id="brojtelefona" placeholder="Vaš broj telefona">
@@ -198,6 +192,12 @@
               <textarea name="#" id="poruka" cols="30" rows="10" placeholder="Poruka"></textarea>
               <input type="submit" value="Pošalji" id="dugme">
     </form>
+    <div class="social">
+		<div><a href="#" target="_blank"><img src="img/fb.png"></a></div>
+		<div><a href="#"><img src="img/insta.png"></a></div>
+		<div><a href="#"><img src="img/google.png"></a></div>
+		<div><a href="#"><img src="img/viber.png"></a></div>
+	</div>
 </section>
 <footer>
 	<p>Srbislav Vučenović 2020. &copy</p>
