@@ -225,6 +225,17 @@ form{
 	height: auto;
 }
 
+fieldset{
+	width: 100%;
+	height: auto;
+	padding:10px;
+}
+
+legend{
+	font-size: 18px;
+	font-family: 'Goldman', cursive;
+}
+
 .inputs{
 	float: left;
 	width: 50%;
