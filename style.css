@@ -191,6 +191,7 @@ font-family: 'Crimson Pro', serif;
 	width: 100%;
 	height: auto;
 	padding: 50px;
+	padding-bottom: 0;
 	box-sizing: border-box;
 }
 
@@ -277,7 +278,7 @@ letter-spacing: 2px;
 footer{
 	clear: both;
 	width: 100%;
-	padding:80px 10px;
+	padding:50px 10px;
 	padding-bottom: 10px;
 	box-sizing: border-box;
 }
@@ -369,7 +370,9 @@ footer>p{
 	.galerija>ul{
 		margin:0;
 	}
-
+	.social{
+		padding-top: 20px;
+	}
 	.social>div{
 		padding:10px;
 	}
