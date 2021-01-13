@@ -77,13 +77,19 @@ $(window).on('popstate',function(){
       });
     });
 		
-    $("#t").click(function(event){
+    /*$("#t").click(function(event){
             event.preventDefault();
 
          $('html, body').animate({
              scrollTop: $('#top').offset().top
         }, 'slow');
-    });
+    });*/
+
+    if(screen.width<=835){
+      $('#g').removeAttr('href');
+    }
+
+
     $('#dugme').on('click',function(event){
     	event.preventDefault();
     	var namev=$('#imeiprezime').val()!=0;
