@@ -64,6 +64,7 @@
 
 
 	<section id="gallery" class="galerija">
+		<h2>Galerija</h2>
 		<ul>
   <li>
     <a href="img/sipka/animals/2.jpg"><img src="img/sipka/animals/2.jpg" alt="" loading="lazy"></a>
@@ -152,7 +153,18 @@
       <div><img src="img/komp.png">
         <p>6. Završeni proizvod</p>
       </div>
-  </section--->
+  </section-->
+  <section id="yt">	
+  	<h2>YouTube</h2>
+<iframe class="ytvideo" src="https://www.youtube.com/embed/IO7A9usGTlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="ytvideo"  src="https://www.youtube.com/embed/4xr3idexgog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="ytvideo" src="https://www.youtube.com/embed/fxUhY5Ss7Ng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <!--section id="blog">
+  	<h2>Objave</h2>
+  </section-->
+
 <section id="about" class="about"> <div>
 	<div class="about-img"></div>
 	<div class="about-text">

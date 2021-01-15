@@ -30,6 +30,11 @@ nav>img{
 	float: right;
 }
 
+h2{
+	text-align: center;
+	font-size: 32px;
+}
+
 .logo{
 	float: left;
 	width: 200px;
@@ -327,6 +332,25 @@ font-family: 'Crimson Pro', serif;
 	text-align: center;
 }
 
+#yt{
+	width: 100%;
+	height: 350px;
+	padding: 10px;
+	text-align: center;
+	background:url('img/youtube.png');
+	background-attachment: fixed;
+}
+
+.ytvideo{
+	width: 32%;
+	height: 250px;
+}
+
+#yt>h2{
+	padding:10px;
+}
+
+
 form{
 	width: 100%;
 	height: auto;
@@ -453,6 +477,15 @@ footer>p{
 	display: inline;
 }
 
+	#yt{
+		height: 1000px;
+	}
+
+.ytvideo{
+	width: 90%;
+	height: 300px;
+}
+
 
 }
 
@@ -549,6 +582,14 @@ footer>p{
   padding: 5px 10px;
   width: 100%;
  
+}
+
+	#yt{
+		height: 700px;
+	}
+
+.ytvideo{
+	height: 200px;
 }
 }
 @media only screen and (max-width: 320px){
