@@ -232,7 +232,7 @@ font-family: 'Crimson Pro', serif;
 }
 
 .about{
-	padding:50px;
+	padding:30px;
 	box-sizing: border-box;
 	width: 100%;
 	height: auto;
@@ -263,6 +263,7 @@ font-family: 'Crimson Pro', serif;
 	height: 400px;
 	display: table;
 	font-family: 'Goldman', cursive;	
+	text-align: justify;
 	color: #333;
 }
 
