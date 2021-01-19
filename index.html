@@ -3,7 +3,9 @@
 <head>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title></title>
+	<title>David Šipka</title>
+	  <link rel="icon" href="img/logo.png">
+
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,20 +26,20 @@
 			<!--img class="logo" src="img/logo.jpg"-->
 			<div class="logo">
 				<a href="index.html" id="t"><h3>David Šipka</h3>
-				<p>PHOTOGRAPHY</p></a>
+				</a>
 			</div>
 			<ul class="nav">
         <img src="img/close.png" width="40px">
 				<li class="dropdown"><a href="galerija.html" id="g">galerija</a>
             <ul class="dropdown-content">
-              <li><a href="animals.html">Animals</a></li>
-              <li><a href="car.html">Car</a></li>
-              <li><a href="dogs.html">Dogs</a></li>
-              <li><a href="flowers.html">Flowers</a></li>
-              <li><a href="landscape.html">Landscape</a></li>
-              <li><a href="nightclub.html">Night Club</a></li>
-              <li><a href="portrait.html">Portrait</a></li>
-              <li><a href="street.html">Street</a></li>
+              <li><a href="animals.html">Životinje</a></li>
+              <li><a href="car.html">Auta</a></li>
+              <li><a href="dogs.html">Psi</a></li>
+              <!--li><a href="flowers.html">Cvijeće</a></li--->
+              <li><a href="landscape.html">Pejzaž</a></li>
+              <li><a href="nightclub.html">Klub</a></li>
+              <li><a href="portrait.html">Portret</a></li>
+              <li><a href="street.html">Ulica</a></li>
             </ul>
         </li>
 				<li><a href="omeni.html" id="a">o meni</a></li>
@@ -50,7 +52,7 @@
 			<div class="layer">
 				<div class="quote">
 					<p>
-						"Uvijek sam pokušavao da pronađem način kako da uhvatim trenutke koje proživim u svom životu. I na kraju, pronašao sam ga, u fotografiji."
+						"Uvijek sam pokušavao da pronađem način kako da uhvatim trenutke koje proživim u svom životu. I na kraju, pronašao sam ga u fotografiji."
 					</p>
 				</div>
 			</div>
@@ -67,70 +69,70 @@
 		<h2>Galerija</h2>
 		<ul>
   <li>
-    <a href="img/sipka/animals/2.jpg"><img src="img/sipka/animals/2.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/animals/2.jpg"><img src="img/sipka/animals/2_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/car/1.jpg"><img src="img/sipka/car/1.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/car/1.jpg"><img src="img/sipka/car/1_tn.jpg" alt="" loading="lazy"></a>
   </li>
    <li class="hideimg">
-    <a href="img/sipka/car/5.jpg"><img src="img/sipka/car/5.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/car/5.jpg"><img src="img/sipka/car/5_tn.jpg" alt="" loading="lazy"></a>
   </li>
    <li>
-    <a href="img/sipka/car/9.jpg"><img src="img/sipka/car/9.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/car/9.jpg"><img src="img/sipka/car/9_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li class="hideimg">
-    <a href="img/sipka/dogs/1.jpg"><img src="img/sipka/dogs/1.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/dogs/1.jpg"><img src="img/sipka/dogs/1_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/dogs/10.jpg"><img src="img/sipka/dogs/10.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/dogs/10.jpg"><img src="img/sipka/dogs/10_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li class="hideimg">
-    <a href="img/sipka/dogs/12.jpg"><img src="img/sipka/dogs/12.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/dogs/12.jpg"><img src="img/sipka/dogs/12_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li class="hideimg">
-    <a href="img/sipka/flowers/2.jpg"><img src="img/sipka/flowers/2.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/flowers/2.jpg"><img src="img/sipka/flowers/2_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/landscape/1.jpg"><img src="img/sipka/landscape/1.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/landscape/1.jpg"><img src="img/sipka/landscape/1_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/landscape/3.jpg"><img src="img/sipka/landscape/3.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/landscape/3.jpg"><img src="img/sipka/landscape/3_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/landscape/4.jpg"><img src="img/sipka/landscape/4.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/landscape/4.jpg"><img src="img/sipka/landscape/4_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/landscape/7.jpg"><img src="img/sipka/landscape/7.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/landscape/7.jpg"><img src="img/sipka/landscape/7_tn.jpg" alt="" loading="lazy"></a>
   </li>
     <li>
-    <a href="img/sipka/landscape/8.jpg"><img src="img/sipka/landscape/8.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/landscape/8.jpg"><img src="img/sipka/landscape/8_tn.jpg" alt="" loading="lazy"></a>
   </li>
     <li class="hideimg">
-    <a href="img/sipka/landscape/9.jpg"><img src="img/sipka/landscape/9.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/landscape/9.jpg"><img src="img/sipka/landscape/9_tn.jpg" alt="" loading="lazy"></a>
   </li>
    <li>
-    <a href="img/sipka/nightclub/4.jpg"><img src="img/sipka/nightclub/4.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/nightclub/4.jpg"><img src="img/sipka/nightclub/4_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li class="hideimg">
-    <a href="img/sipka/portrait/2.jpg"><img src="img/sipka/portrait/2.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/portrait/2.jpg"><img src="img/sipka/portrait/2_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/portrait/3.jpg"><img src="img/sipka/portrait/3.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/portrait/3.jpg"><img src="img/sipka/portrait/3_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li class="hideimg">
-    <a href="img/sipka/portrait/5.jpg"><img src="img/sipka/portrait/5.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/portrait/5.jpg"><img src="img/sipka/portrait/5_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/portrait/10.jpg"><img src="img/sipka/portrait/10.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/portrait/10.jpg"><img src="img/sipka/portrait/10_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/portrait/18.jpg"><img src="img/sipka/portrait/18.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/portrait/18.jpg"><img src="img/sipka/portrait/18_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-    <a href="img/sipka/portrait/20.jpg"><img src="img/sipka/portrait/20.jpg" alt="" loading="lazy"></a>
+    <a href="img/sipka/portrait/20.jpg"><img src="img/sipka/portrait/20_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li>
-   <a href="img/sipka/street/1.jpg"><img src="img/sipka/street/1.jpg" alt="" loading="lazy"></a>
+   <a href="img/sipka/street/1.jpg"><img src="img/sipka/street/1_tn.jpg" alt="" loading="lazy"></a>
   </li>
   <li></li>
 </ul>
@@ -169,8 +171,8 @@
 	<div class="about-img"></div>
 	<div class="about-text">
 		<div>
-		<h3>Biografija</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet urna tristique nulla venenatis molestie. Suspendisse potenti. Pellentesque feugiat vulputate viverra. Cras commodo sodales laoreet. Proin vestibulum quam enim, vel pretium mauris cursus in. Vivamus ac aliquam mauris. Nulla tincidunt nibh eget congue semper. Aenean blandit, arcu id sagittis viverra, elit ligula fermentum nunc, nec bibendum nulla diam in diam. Nunc mollis sapien at libero luctus, sit amet auctor orci maximus. Pellentesque lobortis lectus eget laoreet hendrerit. Curabitur sapien est, tempus id dictum a, fringilla eu quam. Duis porttitor, nulla id iaculis aliquam, orci quam vestibulum neque, non finibus massa odio vitae justo. Morbi a volutpat magna, ut mollis magna.
+		<h3>O meni</h3>
+		<p>Još kao dijete imao sam ambicije za fotografijom. Roditelji su mi pričali, da sam često uzimao fotoaparate, video kamere koje čak ne bi ni radile, ali bih ja opet uzimao, navodno nešto fotografisao i snimao. 2017-te godine kupio sam svoj prvi fotoaparat ,, Nikon D5100“ koji je relativno dobar fotoaparat, više amaterski. Počeo sam da se sve više i više interesujem za fotografiju. Iz dana u dan, provodio sam dosta vremena za računarom, učeći osnove fotografije, šta je aparat, kako on funkcioniše. Polako sam ulazio u te fotografske vode, kupio sam svoj prvi blic. Fotografio sam svoje prijatelje, pse, cvijeće, ulice, generalno sve samo da bih se upraksao. Kada sam imao dovoljno sampouzdanja i znanja o fotografiji  počeo sam fotografisati noćne izlaske u klobivma, gdje bi se te fotografije objavljivale na stranici Gradiška noću. S vremenom sam kupio kvalitetniju opremu i ozbiljnije se počeo baviti fotografijom.  Počeo sam fotografisati raznorazne događaje, manifestacije, rođendane, mature, učestvovati na raznoraznim projektima. Kako sam učio, a i dan danas učim o fotografiji, počeo sam učiti o kinematografiji. 
 
 </p>
 </div>
@@ -194,9 +196,9 @@
   </div>
 </section>
 <footer>
-    <a href="#" target="_blank"><img src="img/fb.png" width="30px"></a>
-   <a href="#"><img src="img/insta.png" width="30px"></a>
-    <a href="#"><img src="img/viber.png" width="30px"></a>
+    <a href="https://www.facebook.com/davidsipkaphotography" target="_blank"><img src="img/fb.png" width="30px"></a>
+   <a href="https://www.instagram.com/david_sipka_photography/" target="_blank"><img src="img/insta.png" width="30px"></a>
+    <a href="https://www.youtube.com/channel/UCW9d0P2Hd-_60t2c9iNEWSA" target="_blank"><img src="img/yt.png" width="30px"></a>
 	<p>David Šipka 2021. &copy</p>
 </footer>
 <script

@@ -64,14 +64,14 @@ $(window).on('popstate',function(){
 	});*/
 
     $('nav>img').on('click',function(){
-      $('.nav').not(':animated').slideToggle(500);
+      $('.nav').not(':animated').slideToggle(1000);
       $('html, body').css({
         'overflow-y':'hidden'
       });
     });
 
     $('.nav>img').on('click',function(){
-      $('.nav').not(':animated').slideToggle(500);
+      $('.nav').not(':animated').slideToggle(1000);
       $('html, body').css({
         'overflow-y':'scroll'
       });

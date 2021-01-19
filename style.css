@@ -39,7 +39,7 @@ h2{
 	float: left;
 	width: 200px;
 	height: 100px;
-	line-height: normal;
+	line-height: 70px;
 	color:white;
 	text-align: center;
 }
@@ -52,10 +52,6 @@ h2{
 .logo>a>h3{
 	font-family: 'Dancing Script', cursive;
 	font-size: 36px;
-}
-
-.logo>a>p{
-	font-size: 18px;
 }
 
 .nav{
@@ -133,6 +129,13 @@ font-family: 'Crimson Pro', serif;
 	background-color: rgba(0,0,0,0.5);
 	list-style: none;
 	margin-top:10px;
+	width: 110px;
+}
+
+@media only screen and (max-width: 768px){
+	.dropdown-content{
+		width: 100%;
+	}
 }
 
 .dropdown-content>li>a{
@@ -670,3 +673,97 @@ footer>p{
         -o-transform: scale(1.1);
         transform: scale(1.1);
 }
+
+#objave-main{
+	margin-top:200px;
+	text-align: center;
+	font-size:24px;
+	color:#1d1d1d;
+}
+
+#contact-main{
+	margin-top: 120px;
+}
+
+#information{
+	padding: 10px;
+	width: 100%;
+}
+
+#information>div{
+	float: left;
+	width: 50%;
+}
+
+#information>div>h2{
+	text-align: left;
+	font-family: Arial;
+}
+
+#contact-img{
+	width: 300px;
+	margin-left: 100px;
+}
+
+#information>div>p{
+	font-size: 25px;
+	font-weight: normal;
+		font-family: Arial;
+		line-height: normal;
+
+}
+
+#information>div>p>a{
+	text-decoration:none;
+	color:black;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#contact-img{
+	margin-left: 50px;
+}
+}
+
+@media only screen and (max-width: 768px){
+	#contact-img{
+	margin-left: 0;
+}
+
+#information>div{
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+#information>div>h2{
+	text-align: center;
+}
+}
+
+
+/*
+#contact-main>div{
+	width: 50%;
+	padding:10px;
+	float: right;
+}
+
+#contactpage{
+	padding:10px;
+	float: left;
+	width: 50%;
+}
+
+#contactpage textarea{
+	width: 100%;
+}
+
+input[type="submit"]{
+	width: 100%;
+}
+
+#contactpage>fieldset>div{
+	width: 100%!important;
+	float: none!important;
+}*/
