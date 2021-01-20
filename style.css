@@ -567,7 +567,9 @@ footer>p{
 
 @media only screen and (max-width: 425px){
 
-
+	.about-text>div>p{
+	font-size: 13px;
+}
 	.galerija>ul{
 		margin:0;
 	}
